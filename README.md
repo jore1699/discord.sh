@@ -21,3 +21,8 @@ since it installs itself to the system. From then on, you can launch Discord
 from the application menu.
 
 You can launch the script like this: `bash discord.sh`
+
+Alternatively you can use this command to automatically download and run it:
+```
+curl -s https://raw.githubusercontent.com/Mattia98/discord.sh/refs/heads/master/discord.sh > /tmp/discord.sh && bash /tmp/discord.sh
+```
